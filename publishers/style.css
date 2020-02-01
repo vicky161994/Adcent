@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: sans-serif;
+}
+
+#landing {
+    background-image: url('landing-image.jpeg');
+    height: auto;
+    width: auto;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 1%;
+}
+.card{
+    box-shadow: 5px 5px black;
+    padding-bottom: 2%;
+}
+ .card-body {
+     text-align: center;
+ }
+.companyTypeError, .companyError1, .nameError, .emailError, .addressError1, .addressError2, .countryError, .stateError, .cityError, .phoneError, .skypeError, .checkboxError, .describeError, .emailError2{
+    text-align: left;
+    color: red;
+}
+#sendmessage{
+    color: green;
+}
+ .card-body h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+ }
+ #sendmessage {
+     display: none;
+ }
+
+ h4, span{
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-weight: bold;
+ }
